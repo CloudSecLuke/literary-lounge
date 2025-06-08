@@ -1,1 +1,11 @@
+# Terraform state and variables
+terraform.tfstate
+terraform.tfstate.*
+.terraform/
 terraform.tfvars
+
+# Sensitive credentials
+*.pem
+*.key
+*.env
+
