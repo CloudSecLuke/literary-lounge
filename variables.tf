@@ -23,3 +23,8 @@ variable "ssh_private_key_path" {
   description = "Path to the private key for SSH access"
   type        = string
 }
+
+variable "s3_bucket" {
+  description = "S3 bucket name for WordPress backups"
+  type        = string
+}
